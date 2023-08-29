@@ -1,0 +1,29 @@
+.que1{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom:20px;
+	margin-top:20px;
+	color:#001858;
+	border-bottom:solid #001858 2px;
+}
+.que1 > div > div:first-child{
+	font-weight: 700;
+}
+
+.que1 > div > div:nth-child(2){
+	font-weight: 400;
+}
+.circle2{
+  width:220px;
+  height:220px;
+  border-radius: 100%;
+  background:#e5e5e5;
+}
+.activicon{
+	color:#00ebc7!important;
+	font-weight:800!important;
+}
+.que1 i{
+/*	color:#00ebc7;*/
+}

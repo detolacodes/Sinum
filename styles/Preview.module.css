@@ -1,0 +1,23 @@
+.preview_titlehead{
+	width:100%;
+	display: flex;
+	/*overflow-x:auto;*/
+	/*background:red;*/
+}
+.preview_head{
+	width:33%;
+	/*background: blue;*/
+	margin:1%;
+}
+@media screen and (max-width:768px){
+	.preview_head{
+		margin:0;
+	}
+}
+
+@media screen and (max-width:576px){
+	.preview_head{
+		/*width:100%;*/
+		margin:0 1.5%;
+	}
+}

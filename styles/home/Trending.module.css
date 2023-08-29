@@ -1,0 +1,44 @@
+.trd1{
+	background-image: url(/images/11.png);
+	width:400px;
+	height: 440px;
+}
+.trd12{
+	background-image: url(/images/10.png);
+	width:400px;
+	height: 440px;
+}
+.trd2{
+	
+}
+.trd2 > div:first-child{
+	font-size:45px;
+	color:#001858;
+	font-weight:700;
+}
+.trd2 > div:nth-child(2){
+	font-size:45px;
+	color:#001858;
+	font-weight:700;
+}
+
+.trd2 > div:nth-child(2):after{
+	content:"";
+	box-sizing: border-box;
+	position: absolute;
+	width: 95.01px;
+	height: 0px;
+	left:190px;
+	top:150px;
+	border: 2px solid #001858;
+	transform: rotate(-0.62deg);
+}
+.trd22{
+	width:320px;
+	height:300px;
+	border-radius:4px;
+	background-image: url(/images/12.png);
+	background-repeat: no-repeat;
+	background-position:bottom;
+	margin:0 -4%;
+}

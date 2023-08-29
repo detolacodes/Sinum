@@ -1,0 +1,12 @@
+.des{
+	position:absolute;
+	top:0;
+	right:0;
+	height:320px;
+	width:320px;
+	background-image: url(/images/13.png);
+	background-position: center;
+}
+.wrap{
+	position: relative;
+}
